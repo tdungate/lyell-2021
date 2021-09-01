@@ -1,2 +1,2 @@
-# temp-iiif.github.io
+# temp-iiif
 Temporary IIIF manifests and collections

@@ -1,0 +1,49 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tdungate.github.io/temp-iiif/collections/lyell-gutenberg.json",
+    "@type": "sc:Collection",
+    "label": "Example Gutenberg Collection",
+    "description": "An example of a GitHub-hosted IIIF collection containing copies of the Gutenberg bible from multiple institutions",
+    "manifests": [
+        {
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/bea56620-793f-4dee-875d-ff051563292a.json",
+            "@type": "sc:Manifest",
+            "label": "Bodleian Library Arch. B b.10"
+        },
+        {
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/864b2a7f-f64e-4085-906b-5b880af7e8ca.json",
+            "@type": "sc:Manifest",
+            "label": "Bodleian Library Arch. B b.11"
+        },
+        {
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9912811/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque nationale de France, département Réserve des livres rares, VELINS-67"
+        },
+        {
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k991282d/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque nationale de France, département Réserve des livres rares, VELINS-68"
+        },
+        {
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k991283s/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque nationale de France, département Réserve des livres rares, VELINS-69"
+        },
+        {
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9912845/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque nationale de France, département Réserve des livres rares, VELINS-70"
+        },
+        {
+            "@id": "https://mazarinum.bibliotheque-mazarine.fr/iiif/1703/manifest",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque Mazarine, Inc 1-1"
+        },
+        {
+            "@id": "https://mazarinum.bibliotheque-mazarine.fr/iiif/1744/manifest",
+            "@type": "sc:Manifest",
+            "label": "Bibliothèque Mazarine, Inc 1-2"
+        }
+    ]
+}

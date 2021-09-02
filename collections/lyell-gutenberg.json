@@ -9,6 +9,16 @@
         "@type": "dctypes:Image",
         "format": "image/jpeg"
     },
+    "logo": {
+        "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71"
+        }
+    },
     "manifests": [
         {
             "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/bea56620-793f-4dee-875d-ff051563292a.json",

@@ -1,7 +1,7 @@
 <ul> 
 {% for item in site.data.manifests.manifests %}
-
-    <li><a href="/view?manifest={{ item["@id"] }}">{{ item.label }}</a></li>
-
+    {% assign uri = item["@id"] %}
+    {% capture href %}view?manifest={{ uri }}{% endcapture %}    
+    <li><a href="{{ href | relative_url }}">{{ item.label }}</a></li>
 {% endfor %}
 </ul>

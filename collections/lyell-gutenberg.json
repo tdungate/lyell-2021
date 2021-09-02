@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://tdungate.github.io/temp-iiif/collections/lyell-gutenberg.json",
     "@type": "sc:Collection",
-    "label": "Gutenberg Bibles",
+    "label": "Gutenberg Bibles (Bodleian Lyell Lectures 2021)",
     "description": "IIIF Gutenberg Bibles, collected for the 2021 Lyell Lectures at the Bodleian Libraries.",
     "thumbnail": {
         "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/7a0da94e-3590-4a1a-8852-3c25ca4f5e93/full/256,/0/default.jpg",
@@ -21,94 +21,169 @@
     },
     "manifests": [
         {
-            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/bea56620-793f-4dee-875d-ff051563292a.json",
-            "@type": "sc:Manifest",
-            "label": "Oxford, Bodleian Library Arch. B b.10"
-        },
-        {
-            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/864b2a7f-f64e-4085-906b-5b880af7e8ca.json",
-            "@type": "sc:Manifest",
-            "label": "Oxford, Bodleian Library Arch. B b.11"
-        },
-        {
             "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9912811/manifest.json",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-67"
+            "label": "France, Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-67"
         },
         {
             "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k991282d/manifest.json",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-68"
+            "label": "France, Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-68"
         },
         {
             "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k991283s/manifest.json",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-69"
+            "label": "France, Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-69"
         },
         {
             "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9912845/manifest.json",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-70"
+            "label": "France, Paris, Bibliothèque nationale de France, département Réserve des livres rares, VELINS-70"
         },
         {
             "@id": "https://mazarinum.bibliotheque-mazarine.fr/iiif/1703/manifest",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque Mazarine, Inc 1-1"
+            "label": "France, Paris, Bibliothèque Mazarine, Inc 1-1"
         },
         {
             "@id": "https://mazarinum.bibliotheque-mazarine.fr/iiif/1744/manifest",
             "@type": "sc:Manifest",
-            "label": "Paris, Bibliothèque Mazarine, Inc 1-2"
+            "label": "France, Paris, Bibliothèque Mazarine, Inc 1-2"
         },
         {
             "@id": "https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/iiif/1905/manifest",
             "@type": "sc:Manifest",
-            "label": "Saint-Omer, Bibliothèque de l’Agglomération du Pays de Saint-Omer, Inc. 7-1"
+            "label": "France, Saint-Omer, Bibliothèque de l’Agglomération du Pays de Saint-Omer, Inc. 7-1"
         },
         {
-            "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00001",
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN8987419472/manifest",
             "@type": "sc:Manifest",
-            "label": "Manchester, John Rylands Library, 3069, Vol. 1"
+            "label": "Germany, Berlin, Staatsbibliothek zu Berlin, 2° Inc 1511"
         },
         {
-            "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00002",
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN898741912/manifest",
             "@type": "sc:Manifest",
-            "label": "Manchester, John Rylands Library, 3069, Vol. 2"
+            "label": "Germany, Göttingen, SUB Göttingen, [Vol. 1]"
         },
         {
-            "@id": "https://cudl.lib.cam.ac.uk//iiif/PR-INC-00001-A-00001-00001-03761",
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN8987419472/manifest",
             "@type": "sc:Manifest",
-            "label": "Cambridge, Cambridge University Library, Inc.1.A.1.1[3761.1-2]"
+            "label": "Germany, Göttingen, SUB Göttingen, [Vol. 2]"
         },
         {
-            "@id": "https://view.nls.uk/manifest/7448/74481667/manifest.json",
+            "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004647/manifest",
             "@type": "sc:Manifest",
-            "label": "Edinburgh, National Library of Scotland, Inc.1 [Old Testament]"
+            "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 1"
         },
         {
-            "@id": "https://view.nls.uk/manifest/7448/74481668/manifest.json",
+            "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004648/manifest",
             "@type": "sc:Manifest",
-            "label": "Edinburgh, National Library of Scotland, Inc.2 [New Testament]"
-        },
-        {
-            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100058502334.0x000001/manifest.json",
-            "@type": "sc:Manifest",
-            "label": "London, British Library, G.12226, Vol. 1"
-        },
-        {
-            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100058689505.0x000001/manifest.json",
-            "@type": "sc:Manifest",
-            "label": "London, British Library, G.12226, Vol. 2"
-        },
-        {
-            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100057888290.0x000001/manifest.json",
-            "@type": "sc:Manifest",
-            "label": "London, British Library, Digital Store C.9.d.3."
+            "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 2"
         },
         {
             "@id": "https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/GTB/manifest.json",
             "@type": "sc:Manifest",
-            "label": "Tokyo, Keio University Library, Incunabula Collection 036"
+            "label": "Japan, Tokyo, Keio University Library, Incunabula Collection 036"
+        },
+        {
+            "@id": "https://iiif.archivelab.org/iiif/A336116/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Spain, Seville, Biblioteca de la Universidad de Sevilla, Inc. 31"
+        },
+        {
+            "@id": "https://view.nls.uk/manifest/7448/74481667/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "UK, Edinburgh, National Library of Scotland, Inc.1"
+        },
+        {
+            "@id": "https://view.nls.uk/manifest/7448/74481668/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "UK, Edinburgh, National Library of Scotland, Inc.2"
+        }, 
+        {
+            "@id": "https://cudl.lib.cam.ac.uk//iiif/PR-INC-00001-A-00001-00001-03761",
+            "@type": "sc:Manifest",
+            "label": "UK, Cambridge, Cambridge University Library, Inc.1.A.1.1[3761.1-2]"
+        },
+        {
+            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100058502334.0x000001/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "UK, London, British Library, G.12226, Vol. 1"
+        },
+        {
+            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100058689505.0x000001/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "UK, London, British Library, G.12226, Vol. 2"
+        },
+        {
+            "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100057888290.0x000001/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "UK, London, British Library, Digital Store C.9.d.3."
+        },
+        {
+            "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00001",
+            "@type": "sc:Manifest",
+            "label": "UK, Manchester, John Rylands Library, 3069, Vol. 1"
+        },
+        {
+            "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00002",
+            "@type": "sc:Manifest",
+            "label": "UK, Manchester, John Rylands Library, 3069, Vol. 2"
+        },
+        {
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/bea56620-793f-4dee-875d-ff051563292a.json",
+            "@type": "sc:Manifest",
+            "label": "UK, Oxford, Bodleian Library, Arch. B b.10"
+        },
+        {
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/864b2a7f-f64e-4085-906b-5b880af7e8ca.json",
+            "@type": "sc:Manifest",
+            "label": "UK, Oxford, Bodleian Library, Arch. B b.11"
+        },
+        {
+            "@id": "https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll100v3/3980",
+            "@type": "sc:Manifest",
+            "label": "USA, Austin TX, Harry Ransom Center, Incun 1454 B5"
+        },
+        {
+            "@id": "https://iiif.lib.harvard.edu/manifests/drs:35522451",
+            "@type": "sc:Manifest",
+            "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 1 (selected images)"
+        },
+        {
+            "@id": "https://iiif.lib.harvard.edu/manifests/drs:6865427",
+            "@type": "sc:Manifest",
+            "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 2 (selected images)"
+        },
+        {
+            "@id": "https://collections.library.yale.edu/manifests/2020598",
+            "@type": "sc:Manifest",
+            "label": "USA, New Haven CT, Beinecke Library, ZZi 56, Vol. 1"
+        },
+        {
+            "@id": "https://collections.library.yale.edu/manifests/16339856",
+            "@type": "sc:Manifest",
+            "label": "USA, New Haven CT, Beinecke Library, ZZi 56, Vol. 2"
+        },
+        {
+            "@id": "https://figgy.princeton.edu/concern/scanned_resources/d446107a-bdfd-4a5d-803c-f315b7905bf4/manifest",
+            "@type": "sc:Manifest",
+            "label": "USA, Princeton NJ, Scheide Library, 48.1"
+        },
+        {
+            "@id": "https://www.loc.gov/item/52002339/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "USA, Washington DC, Library of Congress, BS75 1454"
+        },
+        {
+            "@id": "https://digi.vatlib.it/iiif/Stamp.Barb.AAA.IV.16/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Vatican City, Biblioteca Apostolica Vaticana, Stamp.Barb.AAA.IV.16"
+        },
+        {
+            "@id": "https://digi.vatlib.it/iiif/Stamp.Barb.AAA.IV.17/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Vatican City, Biblioteca Apostolica Vaticana, Stamp.Barb.AAA.IV.17"
         }
     ]
 }

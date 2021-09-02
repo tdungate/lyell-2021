@@ -1,0 +1,33 @@
+<script type="text/javascript">
+// get query string
+var queryString = window.location.search
+var urlParams = new URLSearchParams(queryString)
+
+// get uri parameter
+var uri = urlParams.get("manifest")
+
+// default Mirador intialisation variables
+var workspace_visible = true
+var windows = []
+
+// if a manifest uri is passed, update Mirador initialisation settings
+if (uri) {
+  windows = [ {"manifestId": uri} ]
+  workspace_visible = false
+}
+
+// load Mirador with settings
+var mirador = Mirador.viewer({
+  "id": "mirador",
+  "workspace": {
+      "showZoomControls": true,
+      "isWorkspaceAddVisible": workspace_visible
+  },
+  "windows": windows,
+  "catalog": [
+    {% for item in site.data.manifests.manifests %}
+    {"manifestId": "{{ item["@id"] }}"}{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+});
+</script>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://digital.bodleian.ox.ac.uk/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://digital.bodleian.ox.ac.uk/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://digital.bodleian.ox.ac.uk/icons/favicon-16x16.png">
+    <link rel="icon" href="https://digital.bodleian.ox.ac.uk/icons/favicon.svg" sizes="any" type="image/svg+xml">
+    <link rel=”mask-icon” href="https://digital.bodleian.ox.ac.uk/icons/favicon.svg" color="#aaaaaa">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <main id="content" class="main-content" role="main">
+      <div id="mirador">
+      {% include viewer.html %}
+    </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<ul> 
+{% for item in site.data.manifests.manifests %}
+
+    <li><a href="/view?manifest={{ item["@id"] }}">{{ item.label }}</a></li>
+
+{% endfor %}
+</ul>

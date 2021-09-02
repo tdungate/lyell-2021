@@ -9,7 +9,7 @@ The Bodleian's [Lyell Lectures 2021 series](https://visit.bodleian.ox.ac.uk/even
 
 ## View XX digitized Gutenberg Bibles.
 
-**[View XX digitized Gutenberg Bibles](/view)**
+**[View XX digitized Gutenberg Bibles]({{ "/view" | relative_url }})**
 
 ## Digitized copies
 

@@ -7,7 +7,7 @@
     "thumbnail": {
         "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/7a0da94e-3590-4a1a-8852-3c25ca4f5e93/full/256,/0/default.jpg",
         "@type": "dctypes:Image",
-        "format": "image/jpeg",
+        "format": "image/jpeg"
     },
     "manifests": [
         {

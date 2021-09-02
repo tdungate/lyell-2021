@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://tdungate.github.io/temp-iiif/collections/lyell-gutenberg.json",
     "@type": "sc:Collection",
-    "label": "Gutenberg Bibles",
+    "label": "Gutenberg Bibles (Bodleian Lyell Lectures 2021)",
     "description": "IIIF Gutenberg Bibles, collected for the 2021 Lyell Lectures at the Bodleian Libraries.",
     "thumbnail": {
         "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/7a0da94e-3590-4a1a-8852-3c25ca4f5e93/full/256,/0/default.jpg",

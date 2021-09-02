@@ -56,6 +56,21 @@
             "label": "France, Saint-Omer, Bibliothèque de l’Agglomération du Pays de Saint-Omer, Inc. 7-1"
         },
         {
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN8987419472/manifest",
+            "@type": "sc:Manifest",
+            "label": "Germany, Berlin, Staatsbibliothek zu Berlin, 2° Inc 1511"
+        },
+        {
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN898741912/manifest",
+            "@type": "sc:Manifest",
+            "label": "Germany, Göttingen, SUB Göttingen, [Vol. 1]"
+        },
+        {
+            "@id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN8987419472/manifest",
+            "@type": "sc:Manifest",
+            "label": "Germany, Göttingen, SUB Göttingen, [Vol. 2]"
+        },
+        {
             "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004647/manifest",
             "@type": "sc:Manifest",
             "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 1"
@@ -64,6 +79,16 @@
             "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004648/manifest",
             "@type": "sc:Manifest",
             "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 2"
+        },
+        {
+            "@id": "https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/GTB/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Japan, Tokyo, Keio University Library, Incunabula Collection 036"
+        },
+        {
+            "@id": "https://iiif.archivelab.org/iiif/A336116/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Spain, Seville, Biblioteca de la Universidad de Sevilla, Inc. 31"
         },
         {
             "@id": "https://view.nls.uk/manifest/7448/74481667/manifest.json",
@@ -116,9 +141,49 @@
             "label": "UK, Oxford, Bodleian Library, Arch. B b.11"
         },
         {
-            "@id": "https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/GTB/manifest.json",
+            "@id": "https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll100v3/3980",
             "@type": "sc:Manifest",
-            "label": "Japan, Tokyo, Keio University Library, Incunabula Collection 036"
+            "label": "USA, Austin TX, Harry Ransom Center, Incun 1454 B5"
+        },
+        {
+            "@id": "https://iiif.lib.harvard.edu/manifests/drs:35522451",
+            "@type": "sc:Manifest",
+            "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 1 (selected images)"
+        },
+        {
+            "@id": "https://iiif.lib.harvard.edu/manifests/drs:6865427",
+            "@type": "sc:Manifest",
+            "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 2 (selected images)"
+        },
+        {
+            "@id": "https://collections.library.yale.edu/manifests/2020598",
+            "@type": "sc:Manifest",
+            "label": "USA, New Haven CT, Beinecke Library, ZZi 56, Vol. 1"
+        },
+        {
+            "@id": "https://collections.library.yale.edu/manifests/16339856",
+            "@type": "sc:Manifest",
+            "label": "USA, New Haven CT, Beinecke Library, ZZi 56, Vol. 2"
+        },
+        {
+            "@id": "https://figgy.princeton.edu/concern/scanned_resources/d446107a-bdfd-4a5d-803c-f315b7905bf4/manifest",
+            "@type": "sc:Manifest",
+            "label": "USA, Princeton NJ, Scheide Library, 48.1"
+        },
+        {
+            "@id": "https://www.loc.gov/item/52002339/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "USA, Washington DC, Library of Congress, BS75 1454"
+        },
+        {
+            "@id": "https://digi.vatlib.it/iiif/Stamp.Barb.AAA.IV.16/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Vatican City, Biblioteca Apostolica Vaticana, Stamp.Barb.AAA.IV.16"
+        },
+        {
+            "@id": "https://digi.vatlib.it/iiif/Stamp.Barb.AAA.IV.17/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Vatican City, Biblioteca Apostolica Vaticana, Stamp.Barb.AAA.IV.17"
         }
     ]
 }

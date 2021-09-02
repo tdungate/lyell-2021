@@ -54,7 +54,7 @@
             "@id": "https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/iiif/1905/manifest",
             "@type": "sc:Manifest",
             "label": "France, Saint-Omer, Bibliothèque de l’Agglomération du Pays de Saint-Omer, Inc. 7-1"
-        },        
+        },
         {
             "@id": "https://view.nls.uk/manifest/7448/74481667/manifest.json",
             "@type": "sc:Manifest",
@@ -69,7 +69,7 @@
             "@id": "https://cudl.lib.cam.ac.uk//iiif/PR-INC-00001-A-00001-00001-03761",
             "@type": "sc:Manifest",
             "label": "UK, Cambridge, Cambridge University Library, Inc.1.A.1.1[3761.1-2]"
-        },        
+        },
         {
             "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100058502334.0x000001/manifest.json",
             "@type": "sc:Manifest",
@@ -84,7 +84,7 @@
             "@id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100057888290.0x000001/manifest.json",
             "@type": "sc:Manifest",
             "label": "UK, London, British Library, Digital Store C.9.d.3."
-        },        
+        },
         {
             "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00001",
             "@type": "sc:Manifest",

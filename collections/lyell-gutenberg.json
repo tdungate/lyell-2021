@@ -56,6 +56,16 @@
             "label": "France, Saint-Omer, Bibliothèque de l’Agglomération du Pays de Saint-Omer, Inc. 7-1"
         },
         {
+            "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004647/manifest",
+            "@type": "sc:Manifest",
+            "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 1"
+        },
+        {
+            "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004648/manifest",
+            "@type": "sc:Manifest",
+            "label": "Germany, Munich, Bayerische Staatsbibliothek, BSB-Ink B-408, Vol. 2"
+        },
+        {
             "@id": "https://view.nls.uk/manifest/7448/74481667/manifest.json",
             "@type": "sc:Manifest",
             "label": "UK, Edinburgh, National Library of Scotland, Inc.1"

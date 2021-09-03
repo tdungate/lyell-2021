@@ -26,7 +26,7 @@ var mirador = Mirador.viewer({
   "windows": windows,
   "catalog": [
     {% for item in site.data.manifests.manifests %}
-    {"manifestId": "{{ item["@id"] }}"}{% if forloop.last == false %},{% endif %}
+    {"manifestId": "{{ item["@id"] }}", "provider": "{{ item["attribution"] }}"}{% if forloop.last == false %},{% endif %}
     {% endfor %}
   ]
 });

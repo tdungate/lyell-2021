@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+### Digitized Gutenberg Bibles for the 2021 Lyell lectures
 
-You can use the [editor on GitHub](https://github.com/tdungate/temp-iiif/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Small static (Jekyll) site for gathering together and viewing digitized Gutenberg Bibles, to accompany the Bodleian's [2021 Lyell Lectures](https://visit.bodleian.ox.ac.uk/event/the-lyell-lectures-2021). Runs as a [GitHub Page](https://pages.github.com/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Pages
 
-### Markdown
+* Index page with information and list of IIIF Gutenberg Bibles
+* View page (`/view`), with a [Mirador](https://github.com/ProjectMirador/mirador) workspace containing all digitized bibles. None open by default, but can be passed a IIIF manifest using `manifest` to open with an object.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Viewer
 
-```markdown
-Syntax highlighted code block
+`/view/`embeds the UMD Version of Mirador (see [Mirador Docs](https://github.com/ProjectMirador/mirador/wiki/M3-Embedding-in-Another-Environment#in-an-html-document-with-javascript)). Uses the `_layouts/view.html` page layout, which loads the Mirador UMD and embeds `_includes/viewer.html`. This `include` sets up Mirador, and populates the workspace with IIIF manifests from `_data/manifests.json` (which should be a IIIF collection).
 
-# Header 1
-## Header 2
-### Header 3
+The `viewer.html` include also contains lines to allow a manifest to be passed to the viewer, using a `manifest` parameter.
 
-- Bulleted
-- List
+### Styling
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tdungate/temp-iiif/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Uses default GitHub Pages styling, plus a custom footer.

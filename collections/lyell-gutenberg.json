@@ -145,13 +145,13 @@
             "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00001",
             "@type": "sc:Manifest",
             "label": "UK, Manchester, John Rylands Library, 3069, Vol. 1",
-            "attribution": "John Rylands Research Institute and Library"
+            "attribution": "University of Manchester"
         },
         {
             "@id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-INCU-03069-00002",
             "@type": "sc:Manifest",
             "label": "UK, Manchester, John Rylands Library, 3069, Vol. 2",
-            "attribution": "John Rylands Research Institute and Library"
+            "attribution": "University of Manchester"
         },
         {
             "@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/bea56620-793f-4dee-875d-ff051563292a.json",
@@ -175,13 +175,13 @@
             "@id": "https://iiif.lib.harvard.edu/manifests/drs:35522451",
             "@type": "sc:Manifest",
             "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 1 (selected images)",
-            "attribution": "Houghton Library"
+            "attribution": "Harvard Library"
         },
         {
             "@id": "https://iiif.lib.harvard.edu/manifests/drs:6865427",
             "@type": "sc:Manifest",
             "label": "USA, Cambridge MA, Houghton Library, Biblia Latina, Vol. 2 (selected images)",
-            "attribution": "Houghton Library"
+            "attribution": "Harvard Library"
         },
         {
             "@id": "https://collections.library.yale.edu/manifests/2020598",

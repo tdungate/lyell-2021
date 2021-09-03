@@ -5,9 +5,14 @@
     "label": "Gutenberg Bibles (Bodleian Lyell Lectures 2021)",
     "description": "IIIF Gutenberg Bibles, collected for the 2021 Lyell Lectures at the Bodleian Libraries.",
     "thumbnail": {
-        "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/7a0da94e-3590-4a1a-8852-3c25ca4f5e93/full/256,/0/default.jpg",
+        "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/942966ce-e7d6-4bc5-b286-72a2413cb7b9/full/256,/0/default.jpg",
         "@type": "dctypes:Image",
-        "format": "image/jpeg"
+        "format": "image/jpeg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/942966ce-e7d6-4bc5-b286-72a2413cb7b9"
+        }
     },
     "logo": {
         "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg",

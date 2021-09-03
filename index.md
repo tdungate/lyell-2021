@@ -5,19 +5,23 @@ title: "Digitized Gutenberg Bibles for the Lyell Lectures 2021: The Genesis, Lif
 
 # Digitized Gutenberg Bibles for the Lyell Lectures 2021
 
-The Bodleian's [Lyell Lectures 2021 series](https://visit.bodleian.ox.ac.uk/event/the-lyell-lectures-2021) will be given by Paul Needham on "**The Genesis, Life, and Afterlife of the Gutenberg Bible**". To accompany the series, we have gathered together digitized copies of the Gutenberg Bible from over a dozen libraries for convenient viewing.
+The Bodleian's [Lyell Lectures 2021 series](https://visit.bodleian.ox.ac.uk/event/the-lyell-lectures-2021) will be given by Paul Needham on "**The Genesis, Life, and Afterlife of the Gutenberg Bible**". To accompany the series, we have gathered together over twenty [IIIF-enabled](https://iiif.io/community/faq/) digitized copies of the Gutenberg Bible, in 34 volumes.
 
-## View XX digitized Gutenberg Bibles.
+## View all digitized Gutenberg Bibles
 
-**[View XX digitized Gutenberg Bibles]({{ "/view" | relative_url }})**
+**[All 34 digitized volumes can be viewed here]({{ "/view" | relative_url }})**.
 
 ## Digitized copies
 
-The digitized copies include:
+This collection comprises (mostly) fully-digitized copies of the Gutenberg Bible which are published by their holding instututions as IIIF objects, meaning they can be easily shared and viewed across a range of compatible applications.
+
+Some libraries publish both volumes as a single object, others as two separate volumes. Some libraries hold only one volume.
+
+Full list of IIIF Gutenberg Bibles:
 
 {% include bibles.html %}
 
-All are published as IIIF objects by their host institutions.
+Some digital facsimiles of the Gutenberg bible are not published as IIIF objects, and are not included here.
 
 ## IIIF Collection
 

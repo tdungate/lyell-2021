@@ -25,4 +25,4 @@ Some digital facsimiles of the Gutenberg bible are not published as IIIF objects
 
 ## IIIF Collection
 
-The digitized Gutenberg Bibles are also available as a [IIIF Collection](https://tdungate.github.io/temp-iiif/collections/lyell-gutenberg.json).
+The digitized Gutenberg Bibles are also available as a [IIIF Collection](https://tdungate.github.io/lyell-2021/collections/lyell-gutenberg.json).
